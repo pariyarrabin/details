@@ -1,0 +1,61 @@
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .container{
+            width:90%;
+            margin:auto;
+            background-color: rgb(69, 64, 75);
+            text-align: center;
+        }
+        input{
+            width: 60%;
+            margin:10px;
+            padding:7px;
+        }
+        textarea{
+            width:60%;
+            margin: 10px; 
+        }
+         .btn{
+            background-color:green;
+            border-style: solid;
+            border-radius: 10px;
+            font-size: 20px;
+            margin: auto;
+            width: 40%;
+            padding: 15px;
+            margin-bottom: 50px;
+         }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>shree mahendra kiran secondary school</h1>
+        <h2>Hetauda-3, Basamadi</h2>
+        <form action="rabin.php" class="form" method="post">
+            <input type="text" name="name" placeholder="enter your name">
+            <input type="text" name="gender" placeholder="enter your gender">
+            <input type="email" name="email" placeholder="enter your g-mail">
+            <input type="number" name="phone" placeholder="enter your phone-number">
+            <textarea name="desc" id="others" cols="30" rows="10" placeholder="enter other description"></textarea>
+            <button class="btn" id="buton" click="clicked">Register</button>
+        </form>
+    </div>
+    <script>
+        document.getElementById(buton).InnerHTML ="sucessfully registered";
+    </script>
+    
+</body>
+</html>
